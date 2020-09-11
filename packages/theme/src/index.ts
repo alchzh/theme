@@ -393,8 +393,12 @@ const theme = {
       color: 'primary',
       textDecoration: 'underline',
       textUnderlinePosition: 'under',
+      overflow: 'visible',
+      padding: '2px',
       ':focus,:hover': {
-        textDecorationStyle: 'wavy'
+        textDecorationStyle: 'wavy',
+        outline: "0.5px solid rgba(255, 255, 255, 0.01)",
+        outlineOffset: '2em'
       }
     },
     pre: {
